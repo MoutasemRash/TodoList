@@ -1,0 +1,80 @@
+.column{
+  background-color: rgba(179, 171, 171, 0.534);
+  min-height: 500px ;
+  padding:20px 10px;
+  border-radius: 20px;
+  border:3px solid transparent;
+
+}
+.dragable{
+  border: 3px dashed black;
+}
+.column-state{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom:10px;
+}
+ .column-state-btn{
+  all:unset;
+  border:1px solid black;
+  padding:5px 10px;
+  border-radius:10px;
+
+}
+.PLANING{
+  background-color: rgba(243, 56, 250, 0.61);
+}
+.ONGOING{
+  background-color: #379fdb94;
+}
+.DONE{
+  background-color:  #49e234a2;
+}
+
+/* add styles to the add task form */
+
+.show-form-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:20px;
+}
+.show-form-btn button{
+  all:unset;
+  border:2px solid red;
+  padding:5px 15px;
+  border-radius:15px;
+  cursor: pointer;
+}
+.column-add-task-form{
+  margin-top:10px;
+
+  position: relative;
+  min-height:70px ;
+  padding:10px;
+}
+.hideForm{
+  display: none;
+}
+.column-add-task-form input{
+  padding:5px 10px;
+}
+.column-add-task-form textarea{
+  display: block;
+  min-width:90px;
+  resize: vertical;
+  padding:10px
+
+}
+.column-add-task-form button{
+  all:unset;
+  background-color: white;
+  padding:5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  position: absolute;
+  bottom:10px;
+  right:10px;
+  cursor: pointer;
+}

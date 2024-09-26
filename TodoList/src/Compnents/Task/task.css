@@ -1,0 +1,169 @@
+.task{
+ background-color: white;
+ padding:5px;
+ border-radius: 5px;
+ min-height: 60px;
+ margin-top:10px;
+ position:relative;
+ cursor:move;
+}
+
+.task-title{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.delete-task-btn{
+  position:absolute;
+  top:5px;
+  right:5px;
+  z-index: 10;
+  color:rgba(206, 201, 201, 0.952);
+  cursor:pointer;
+  font-size:20px;
+}
+.task-buttons {
+
+  margin-top:8px;
+  min-height: 20px;
+  position:relative;
+}
+.right-arrow{
+  position: absolute;
+  right:5px;
+  top:2px;
+}
+.left-arrow{
+  position: absolute;
+  left:5px;
+}
+.task-buttons span{
+  cursor: pointer;
+}
+
+/* add styles to the model */
+.task-modle ,.overly{
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index: 10;
+}
+.overly{
+  background-color: rgba(192, 190, 190, 0.466);
+  
+
+}
+.modle-content{
+  position: absolute;
+  top:30%;
+  left:40%;
+  background-color: #fff;
+  min-width:300px;
+  border-radius: 10px;
+  padding:10px;
+  z-index:11;
+}
+.modle-header{
+
+}
+.modle-title{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.modle-close-btn{
+  position:absolute;
+  top:10px;
+  right:15px;
+  cursor:pointer;
+  font-size: 27px;
+}
+.modle-description{
+  margin-top:20px;
+  font-size: 15px;
+  color:gray;
+  padding:0 10px;
+}
+.modle-date{
+  font-size: 13px;
+  color:gray;
+  padding-left: 5px;
+}
+.task-show-modle{
+  min-height: 20px;
+  position:relative;
+  margin-top:10px;
+}
+.showMore-btn{
+position: absolute;
+right:5px;
+color:rgb(163, 162, 162);
+cursor: pointer;
+font-size: 14px;
+
+}
+.modle-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.modle-edit span{
+  color:gray;
+  cursor: pointer;
+  padding-right:10px;
+}
+/* add styles to the warning message */
+
+.warrning{
+  position: absolute;
+  top:-30%;
+  left:40%;
+  background-color: rgb(241, 238, 238);
+  padding:10px;
+  border-radius: 10px;
+  min-width: 270px;
+  z-index: 10;
+  transition: top .4s;
+}
+.showWarrning{
+  top:10%
+}
+.warrning-title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom:10px;
+}
+.warrning-message{
+  margin-bottom: 10px;
+}
+.warrning-buttons{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+/* .warrning-buttons button{
+  all:unset;
+  padding:5px 10px;
+  border:1px solid white;
+  background-color: green;
+
+} */
+.save{
+  all:unset;
+  padding:3px 15px;
+  border:1px solid white;
+  background-color: rgb(20, 182, 20);
+  cursor: pointer;
+  font-weight: bold;
+}
+.discurd{
+  all:unset;
+  padding:5px 15px;
+  border:1px solid white;
+  background-color: rgb(250, 56, 56);
+  cursor: pointer;
+  font-weight: bold;
+}

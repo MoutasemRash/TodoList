@@ -1,0 +1,9 @@
+body{
+  background-image: url(https://picsum.photos/id/804/1600/800);
+  background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}

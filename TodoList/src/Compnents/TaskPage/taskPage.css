@@ -1,0 +1,45 @@
+.taskPage{
+  background-color: #fff;
+  min-width:300px;
+  border-radius: 10px;
+  padding:10px;
+  z-index:11;
+  position: relative;
+  margin-bottom: 10px;
+}
+.taskPage-header{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.taskPage-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+.taskPage-delete-btn{
+ position: absolute;
+ top:10px;
+ right:10px;
+ cursor: pointer;
+ color:gray;
+}
+.taskPage-description{
+  color:gray;
+  font-size: 15px;
+  padding:8px;
+  
+}
+.taskPage-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0 5px;
+}
+.taskPage-date{
+  color:gray;
+  font-size: 14px;
+}
+.taskPage-edit-btn{
+  color:gray;
+  cursor: pointer;
+}
